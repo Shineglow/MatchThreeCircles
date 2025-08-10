@@ -11,6 +11,9 @@ Packages/packages-lock.json
 .vs/
 .vscode/
 
+# Rider
+.idea/
+
 # OS specific files
 .DS_Store
 
