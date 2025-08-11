@@ -1,30 +1,15 @@
-using System;
-using Infrastructure.DI;
-using Infrastructure.SceneManagement;
 using UnityEngine;
 
 namespace Infrastructure
 {
-	public class Bootstrapper : MonoBehaviour
+	public class Bootstrapper : MonoBehaviour, ICoroutineRunner
 	{
-		private readonly DIResolverWrapper _container = new DIResolverWrapper();
+		private Game _game;
 
-		private async void Awake()
+		private void Awake()
 		{
-			try
-			{
-				_container.Bind<IResolver>().AsInstance(_container);
-				_container.Bind<ISceneLoader>().To<SceneLoader>().IsCachingInstance();
-
-				// show loadingScreen
-				await _container.Resolve<ISceneLoader>().LoadSceneAsync("Main");
-				// hide loadingScreen
-				// move control to gameplay
-			}
-			catch (Exception e)
-			{
-				Debug.LogException(e);
-			}
+			_game = new Game(this);
+			DontDestroyOnLoad(this);
 		}
 	}
 }

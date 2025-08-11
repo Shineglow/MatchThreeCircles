@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c25ceba4c34484ea2319e09d3ccd4cf, type: 3}
+  m_Name: BallStaticData
+  m_EditorClassIdentifier: 
+  BallsStaticData:
+  - <BallId>k__BackingField: 0
+    <Sprite>k__BackingField:
+      m_AssetGUID: a37e6a88694def0459fe37d79b119ee3
+      m_SubObjectName: Blue
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+  - <BallId>k__BackingField: 1
+    <Sprite>k__BackingField:
+      m_AssetGUID: ec49698b8ab832947870b4b5ded7fe91
+      m_SubObjectName: Green
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+  - <BallId>k__BackingField: 2
+    <Sprite>k__BackingField:
+      m_AssetGUID: da7591875f4341040b5f5b19fa897941
+      m_SubObjectName: Orange
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+  - <BallId>k__BackingField: 3
+    <Sprite>k__BackingField:
+      m_AssetGUID: 2e4eea7604e62554b951c370a5852ff0
+      m_SubObjectName: Purple
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+  - <BallId>k__BackingField: 4
+    <Sprite>k__BackingField:
+      m_AssetGUID: 2b805cbb183df53429a52987b0036623
+      m_SubObjectName: Red
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+  - <BallId>k__BackingField: 5
+    <Sprite>k__BackingField:
+      m_AssetGUID: d947903306512ad4bb9dbbaffab5525d
+      m_SubObjectName: Yellow
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1

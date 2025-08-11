@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ac1ad99b2c024344bb5e9da502c92bf2
+  m_SerializeEntries:
+  - m_GUID: 1e8d934ecf0659d4f9989bb1fe12155b
+    m_Address: LevelsStaticData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b805cbb183df53429a52987b0036623
+    m_Address: Assets/AddressablesAssets/Sprites/Circles/Red.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e4eea7604e62554b951c370a5852ff0
+    m_Address: Assets/AddressablesAssets/Sprites/Circles/Purple.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b8aac1d1401df84a8c59f5a29eb8711
+    m_Address: Ball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 470c43926d26db841b43e8cb69a442c9
+    m_Address: MathematicalPendulum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a9e09090de4ee84bb5b418e1a5c9d83
+    m_Address: BallStaticData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c38a11a078cc164b8b1ea33adc174e8
+    m_Address: StartScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a113b067b9992e42b61d65cc93444b4
+    m_Address: UiRoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d4eada24a741da46a5630ddb45a79dc
+    m_Address: StaticData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a37e6a88694def0459fe37d79b119ee3
+    m_Address: Assets/AddressablesAssets/Sprites/Circles/Blue.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2755528344d0ca4ab6a3391d6603bca
+    m_Address: ScreenTouchDetector
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c69035b230805b3489b9d7568bbd6322
+    m_Address: LoadingCurtain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d947903306512ad4bb9dbbaffab5525d
+    m_Address: Assets/AddressablesAssets/Sprites/Circles/Yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da7591875f4341040b5f5b19fa897941
+    m_Address: Assets/AddressablesAssets/Sprites/Circles/Orange.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec49698b8ab832947870b4b5ded7fe91
+    m_Address: Assets/AddressablesAssets/Sprites/Circles/Green.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e8c927eb728965940a24609f565e928b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 638dd813d2965bf49a6f8cd3b1bb18ed, type: 2}
+    - {fileID: 11400000, guid: 1be22164dc895e844adcbda1dcfa9f2e, type: 2}
